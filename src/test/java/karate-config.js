@@ -28,11 +28,11 @@ function fn() {
 	// ===============================================
 	// 2. IMPORTAR CLASES JAVA NECESARIAS
 	// =============================================== 
-	var SecretManagerConfig = Java.type('com.pacifico.automation.utils.security.config.SecretManagerConfig');
-	var SecretManager = Java.type('com.pacifico.automation.utils.security.SecretManager');
-	var LogModifier = Java.type('com.pacifico.automation.utils.security.LogModifier');
+	// var SecretManagerConfig = Java.type('com.pacifico.automation.utils.security.config.SecretManagerConfig');
+	// var SecretManager = Java.type('com.pacifico.automation.utils.security.SecretManager');
+	// var LogModifier = Java.type('com.pacifico.automation.utils.security.LogModifier');
 	
-	karate.configure('logModifier', new LogModifier());
+	// karate.configure('logModifier', new LogModifier());
 	
 	// ===============================================
 	// 3. CONFIGURACIONES POR AMBIENTE (SIMPLIFICADO)
