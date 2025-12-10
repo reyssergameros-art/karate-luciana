@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "required": ["idPriority", "name", "description"],
+  "properties": {
+    "idPriority": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
