@@ -47,9 +47,6 @@ function fn() {
 				path: '', // Path de la API para integración
 				version: finalversion,
 				param: '' // Parámetro adicional si aplica
-			},
-			paths: {
-				priorities: 'priorities'
 			}
 		},
 		certificacion: {
@@ -60,9 +57,6 @@ function fn() {
 				baseUrl: 'http://qa-server:8080', // URL base de la API para certificación
 				path: '', // Path de la API para certificación
 				version: finalversion,
-			},
-			paths: {
-				priorities: 'priorities'
 			}
 		}
 	};
@@ -151,12 +145,10 @@ function fn() {
 				version: envConfig.api.version,
 				headers: {
 					"accept": 'application/json',
-					"x-correlation-id": '550e8400-e29b-41d4-a716-446655440000',
-					"x-request-id": '6ba7b810-9dad-11d1-80b4-00c04fd430c8',
-					"x-transaction-id": '7c9e6679-7425-40de-944b-e07fc1f90ae7'
-				},
-				// Paths de endpoints por ambiente
-				paths: envConfig.paths
+					"x-correlation-id": java.util.UUID.randomUUID() + '',
+					"x-request-id": java.util.UUID.randomUUID() + '',
+					"x-transaction-id": java.util.UUID.randomUUID() + ''
+				}
 			};
 		} catch (error) {
 			throw new Error('❌ Error construyendo configuración: ' + error.message);
