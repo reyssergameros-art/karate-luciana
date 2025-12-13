@@ -1,0 +1,114 @@
+10:38:09.275 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:38:11.123 [main] INFO  com.intuit.karate - ✅ Configuración de ambiente cargada para: integracion 
+10:38:11.127 [main] INFO  com.intuit.karate - ✅ Secret Manager inicializado correctamente 
+10:38:11.128 [main] INFO  com.intuit.karate - 🔧 Construyendo configuración de aplicación... 
+10:38:11.130 [main] INFO  com.intuit.karate - ✅ Configuración de aplicación construida exitosamente 
+10:38:11.134 [main] INFO  com.intuit.karate - 🎉 === CONFIGURACIÓN COMPLETADA === 
+10:38:11.135 [main] INFO  com.intuit.karate - 📍 Ambiente: integracion 
+10:38:11.136 [main] INFO  com.intuit.karate - 🏃 Runner: local 
+10:38:11.558 [main] ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 322 milliseconds for url: /priorities
+10:38:11.579 [main] ERROR com.intuit.karate - classpath:resources/features/gestionPrioridades/getPriorities.feature:11
+When method get
+http call failed after 322 milliseconds for url: /priorities
+org.apache.http.ProtocolException: Target host is not specified
+classpath:resources/features/gestionPrioridades/getPriorities.feature:11
+10:38:55.187 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:38:56.721 [main] INFO  com.intuit.karate - ✅ Configuración de ambiente cargada para: integracion 
+10:38:56.723 [main] INFO  com.intuit.karate - ✅ Secret Manager inicializado correctamente 
+10:38:56.724 [main] INFO  com.intuit.karate - 🔧 Construyendo configuración de aplicación... 
+10:38:56.727 [main] INFO  com.intuit.karate - ✅ Configuración de aplicación construida exitosamente 
+10:38:56.732 [main] INFO  com.intuit.karate - 🎉 === CONFIGURACIÓN COMPLETADA === 
+10:38:56.732 [main] INFO  com.intuit.karate - 📍 Ambiente: integracion 
+10:38:56.733 [main] INFO  com.intuit.karate - 🏃 Runner: local 
+10:38:57.143 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/priorities
+1 > accept: application/json
+1 > x-correlation-id: 550e8400-e29b-41d4-a716-446655440000
+1 > x-request-id: 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+1 > x-transaction-id: 7c9e6679-7425-40de-944b-e07fc1f90ae7
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:38:57.254 [main] DEBUG com.intuit.karate - response time in milliseconds: 103
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: DELETE, GET, OPTIONS, PATCH, POST, PUT
+1 < Access-Control-Max-Age: 3600
+1 < Access-Control-Allow-Headers: x-requested-with, authorization, Content-Type, Authorization, credential, X-XSRF-TOKEN, x-correlation-id, x-request-id, x-transaction-id
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 10 Dec 2025 15:38:57 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[
+  {
+    "idPriority": 1,
+    "name": "Alta",
+    "description": "Tareas de alta prioridad"
+  },
+  {
+    "idPriority": 2,
+    "name": "Media",
+    "description": "Tareas de prioridad media"
+  },
+  {
+    "idPriority": 3,
+    "name": "Baja",
+    "description": "Tareas de baja prioridad"
+  }
+]
+
+
+10:51:53.393 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:51:55.421 [main] INFO  com.intuit.karate - ✅ Configuración de ambiente cargada para: integracion 
+10:51:55.425 [main] INFO  com.intuit.karate - ✅ Secret Manager inicializado correctamente 
+10:51:55.427 [main] INFO  com.intuit.karate - 🔧 Construyendo configuración de aplicación... 
+10:51:55.429 [main] INFO  com.intuit.karate - ✅ Configuración de aplicación construida exitosamente 
+10:51:55.435 [main] INFO  com.intuit.karate - 🎉 === CONFIGURACIÓN COMPLETADA === 
+10:51:55.436 [main] INFO  com.intuit.karate - 📍 Ambiente: integracion 
+10:51:55.436 [main] INFO  com.intuit.karate - 🏃 Runner: local 
+10:51:55.917 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/priorities
+1 > accept: application/json
+1 > x-correlation-id: 550e8400-e29b-41d4-a716-446655440000
+1 > x-request-id: 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+1 > x-transaction-id: 7c9e6679-7425-40de-944b-e07fc1f90ae7
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:51:56.035 [main] DEBUG com.intuit.karate - response time in milliseconds: 109
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: DELETE, GET, OPTIONS, PATCH, POST, PUT
+1 < Access-Control-Max-Age: 3600
+1 < Access-Control-Allow-Headers: x-requested-with, authorization, Content-Type, Authorization, credential, X-XSRF-TOKEN, x-correlation-id, x-request-id, x-transaction-id
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 10 Dec 2025 15:51:56 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[
+  {
+    "idPriority": 1,
+    "name": "Alta",
+    "description": "Tareas de alta prioridad"
+  },
+  {
+    "idPriority": 2,
+    "name": "Media",
+    "description": "Tareas de prioridad media"
+  },
+  {
+    "idPriority": 3,
+    "name": "Baja",
+    "description": "Tareas de baja prioridad"
+  }
+]
+
+
