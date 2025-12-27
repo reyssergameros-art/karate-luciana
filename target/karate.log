@@ -1,24 +1,24 @@
-20:09:09.998 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-20:09:11.392 [main] INFO  com.intuit.karate - ✅ Configuración de ambiente cargada para: integracion 
-20:09:11.395 [main] INFO  com.intuit.karate - ✅ Secret Manager inicializado correctamente 
-20:09:11.395 [main] INFO  com.intuit.karate - 🔧 Construyendo configuración de aplicación... 
-20:09:11.513 [main] INFO  com.intuit.karate - ✅ Configuración de aplicación construida exitosamente 
-20:09:11.518 [main] INFO  com.intuit.karate - 🎉 === CONFIGURACIÓN COMPLETADA === 
-20:09:11.522 [main] INFO  com.intuit.karate - 📍 Ambiente: integracion 
-20:09:11.522 [main] INFO  com.intuit.karate - 🏃 Runner: local 
-20:09:11.837 [main] DEBUG com.intuit.karate - request:
+18:55:34.082 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:55:34.936 [main] INFO  com.intuit.karate - ✅ Configuración de ambiente cargada para: integracion 
+18:55:34.936 [main] INFO  com.intuit.karate - ✅ Secret Manager inicializado correctamente 
+18:55:34.936 [main] INFO  com.intuit.karate - 🔧 Construyendo configuración de aplicación... 
+18:55:34.999 [main] INFO  com.intuit.karate - ✅ Configuración de aplicación construida exitosamente 
+18:55:34.999 [main] INFO  com.intuit.karate - 🎉 === CONFIGURACIÓN COMPLETADA === 
+18:55:34.999 [main] INFO  com.intuit.karate - 📍 Ambiente: integracion 
+18:55:34.999 [main] INFO  com.intuit.karate - 🏃 Runner: local 
+18:55:35.244 [main] DEBUG com.intuit.karate - request:
 1 > GET http://localhost:8080/priorities
 1 > accept: application/json
-1 > x-correlation-id: 15c833de-c509-4d37-9128-399f200d960d
-1 > x-request-id: be76bce5-42b6-4f0d-94c5-033da590d08c
-1 > x-transaction-id: 54a06b27-0359-436c-be4d-55ed15c97b7b
+1 > x-correlation-id: 41d71792-ab2a-4b68-902e-9c3cd4623349
+1 > x-request-id: ff808b78-f9d8-49a2-b054-20a9126e926a
+1 > x-transaction-id: e974bef9-29e3-410f-8a53-4a1979183dd9
 1 > Host: localhost:8080
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
 1 > Accept-Encoding: gzip,deflate
 
 
-20:09:12.034 [main] DEBUG com.intuit.karate - response time in milliseconds: 170
+18:55:35.306 [main] DEBUG com.intuit.karate - response time in milliseconds: 58
 1 < 200
 1 < Access-Control-Allow-Origin: *
 1 < Access-Control-Allow-Methods: DELETE, GET, OPTIONS, PATCH, POST, PUT
@@ -26,7 +26,7 @@
 1 < Access-Control-Allow-Headers: x-requested-with, authorization, Content-Type, Authorization, credential, X-XSRF-TOKEN, x-correlation-id, x-request-id, x-transaction-id
 1 < Content-Type: application/json
 1 < Transfer-Encoding: chunked
-1 < Date: Sat, 13 Dec 2025 01:09:11 GMT
+1 < Date: Fri, 19 Dec 2025 23:55:35 GMT
 1 < Keep-Alive: timeout=60
 1 < Connection: keep-alive
 [

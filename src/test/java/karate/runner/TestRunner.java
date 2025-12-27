@@ -29,7 +29,7 @@ public class TestRunner {
      */
     @Karate.Test
     Karate testAll() {
-        return Karate.run("classpath:resources/features").relativeTo(getClass());
+        return Karate.run("classpath:features").relativeTo(getClass());
     }
     
     /**
@@ -43,7 +43,7 @@ public class TestRunner {
     /*
     @Karate.Test
     Karate testGestionPrioridades() {
-        return Karate.run("classpath:resources/features/gestionPrioridades")
+        return Karate.run("classpath:features/gestionPrioridades")
                      .relativeTo(getClass());
     }
     */
